@@ -30,12 +30,7 @@
                 <div class="inner-container clearfix">
                     <div class="auto-container">
                         <!--Logo-->
-                        <div class="logo-box">
-                            <div class="logo"><a href="index.html" title="Linoor - DIgital Agency HTML Template"><img
-                                        src="/assets_site/images/logo-3.png" id="thm-logo"
-                                        alt="Linoor - DIgital Agency HTML Template"
-                                        title="Linoor - DIgital Agency HTML Template"></a></div>
-                        </div>
+                        
                         <div class="nav-outer clearfix">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span><span

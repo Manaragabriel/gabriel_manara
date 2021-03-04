@@ -43,8 +43,9 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						
+                            <a href="{{asset('/')}}" class="h1">Gabriel Manara</a>
+                        
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
@@ -55,46 +56,7 @@
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
 							</div><!-- #top-search end -->
 
-							<!-- Top Cart
-							============================================= -->
-							<div id="top-cart" class="header-misc-icon d-none d-sm-block">
-								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
-								<div class="top-cart-content">
-									<div class="top-cart-title">
-										<h4>Shopping Cart</h4>
-									</div>
-									<div class="top-cart-items">
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Blue Round-Neck Tshirt with a Button</a>
-													<span class="top-cart-item-price d-block">$19.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 2</div>
-											</div>
-										</div>
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Light Blue Denim Dress</a>
-													<span class="top-cart-item-price d-block">$24.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 3</div>
-											</div>
-										</div>
-									</div>
-									<div class="top-cart-action">
-										<span class="top-checkout-price">$114.95</span>
-										<a href="#" class="button button-3d button-small m-0">View Cart</a>
-									</div>
-								</div>
-							</div><!-- #top-cart end -->
+						
 
 						</div>
 
@@ -1520,9 +1482,21 @@
 		============================================= -->
 		<section id="page-title" class="page-title-parallax page-title-dark page-title-right include-header" style="padding: 250px 0; background-image: url('images/about/me-parallax.jpg'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 440px;" data-top-bottom="background-position:0px -500px;">
 
-			<div class="container clearfix">
-				<h1>GABRIEL MANARA</h1>
-				<span>Desenvolvedor WEB</span>
+			<div class="container pt-0">
+			      <div class="row">
+
+					<div class="col-lg-6 d-flex justify-content-center">
+						<img src="{{asset('assets_site/images/eu.jpg')}}" class="top-photo br-100"/>
+					</div>
+					
+					<div class="col-lg-6 d-flex align-items-center">
+						<div >
+							<h1>GABRIEL MANARA</h1>
+							<span>Desenvolvedor WEB</span>
+						</div>
+				  	</div>
+				  
+				  </div>
 			</div>
 
 		</section><!-- #page-title end -->
@@ -1601,9 +1575,23 @@
 						<div class="row">
 							<div class="col-lg-6">
 								<h3 class="text-center">Sites e Ecommerce</h3>
+								<p class="text-center">
+									Posso atuar em projetos de Sites e Ecommerce<br>
+									Passei a maior parte da minha carreira 
+									trabalhando com este tipo de projeto,
+									gosto de aplicar sempre as melhores práticas,
+									utilizando as melhores tecnólogias, se preocupando
+									com a Responsividade e questões de SEO e otimização 
+								</p>
 							</div>
 							<div class="col-lg-6">
 								<h3 class="text-center">Sistemas e API's</h3>
+								<p class="text-center">
+									Possuo expêriencia com criação de Sistemas e API´s<br>
+									Gosto bastante de resolver problemas e trazer soluções
+									para os problemas das pessoas. Sempre me esforço em criar a melhor
+									solução para automatizar processos e melhorar o trabalho das pessoas
+								</p>
 							</div>
 						</div>
 					</div>
