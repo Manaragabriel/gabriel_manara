@@ -1,7 +1,7 @@
 @extends('layout_site')
 @section('content')	
 	
-	<div id="wrapper" class="clearfix">
+
 
 		<!-- Header
 		============================================= -->
@@ -134,18 +134,27 @@
 
 
 		<section class="" id="portfolio">
-				<div class="container">
-						
-					<div class="row">
-						<div class="col-lg-12">
-							<h2 class="text-center">MEU PORTIFÓLIO</h2>
-
-						
-
-						</div>
-
+			<div class="container">
+				<h2 class="text-center">Meu Portfolio</h2>
+				<div class="row">
+					<div class="col-lg-6 px-3">
+						<img class="image-services" src="{{asset('assets_site/images/w2.jpg')}}"/>
+						<h3 class="text-center">W2GETHER DIGITAL MAKERS</h3>
+						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
+						<p class="text-center">
+							27/09/2020 - Atualmente
+						</p>
+					</div>
+					<div class="col-lg-6 px-3">
+						<img class="image-services" src="{{asset('assets_site/images/valore.png')}}"/>
+						<h3 class="text-center">VALORE MARKETING E TECNÓLOGIA</h3>
+						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
+						<p class="text-center">
+							24/06/2019 - 24/09/2020
+						</p>
 					</div>
 				</div>
+			</div>
 
 		</section>
 
@@ -155,10 +164,10 @@
 						<div class="row">
 						
 
-							<div class="col-lg-6 col-md-6 bottommargin clearfix">
+							<div class="col-lg-6 col-md-6 order-2  order-lg-1 bottommargin clearfix">
 								
 
-								<div class="d-flex pt-5 justify-content-center">
+								<div class="d-flex pt-lg-5 justify-content-center">
 									<p>
 										<span class="contact-data-title">E-mail:</span> <a href="mailto:gabrielmanara2010@hotmail.com" class="contact-data-content">  gabrielmanara2010@hotmail.com</a><br>
 										<span class="contact-data-title">Whatsapp/Celular:</span> <a href="https://api.whatsapp.com/send?phone=5519983708165" class="contact-data-content">(19)98370-8165</a>
@@ -171,7 +180,7 @@
 	
 							</div>
 	
-							<div class="col-lg-6 bottommargin clearfix">
+							<div class="col-lg-6 order-1  order-lg-2 bottommargin clearfix">
 	
 								<form>
 									<div class="form-group">
@@ -208,6 +217,5 @@
 		
 		
 
-	</div>
 
 @endsection

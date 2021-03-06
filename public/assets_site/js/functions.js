@@ -749,7 +749,10 @@ var SEMICOLON = SEMICOLON || {};
 					SEMICOLON.header.menuItemsSpacing( '' );
 				}
 			}
+			$('#header').addClass('sticky-header');
+			$('#header').addClass('sticky-header-shrink');
 		},
+		
 
 		menuItemsSpacing: function( spacing ) {
 

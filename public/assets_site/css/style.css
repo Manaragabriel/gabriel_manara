@@ -1187,14 +1187,13 @@ img {
 ***/
 
 .sticky-header {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
+  position: fixed  !important;
+  opacity: 1;
   left: 0px;
   top: 0px;
   width: 100%;
   padding: 0px 0px;
-  z-index: -1;
+  z-index: 9999;
   background: #ffffff;
   border-bottom: 1px solid #f0f0f0;
   -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);

@@ -28,17 +28,18 @@
 </head>
 
 <body class="stretched">
+	<div id="wrapper" class="clearfix">
+    	@include('site/includes/header')
 
-    @include('site/includes/header')
+    	@yield('content')
 
-    @yield('content')
+    	@include('site/includes/footer')
 
-    @include('site/includes/footer')
 
-    @livewireScripts
-
+	</div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 	<div id="gotoTop" class="icon-angle-up"></div>
+	@livewireScripts
 	<script src="{{asset('assets_site/js/jquery.js')}}"></script>
 	<script src="{{asset('assets_site/js/plugins.min.js')}}"></script>
 	<script src="{{asset('assets_site/js/functions.js')}}"></script>
