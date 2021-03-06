@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Models\Post;
 class MainController extends Controller
 {
     /**
@@ -14,6 +14,7 @@ class MainController extends Controller
      */
     public function index()
     {
+        $posts = Post::orderBy('id','desc')->take(3)->get();
         return view('site/index');
     }
 

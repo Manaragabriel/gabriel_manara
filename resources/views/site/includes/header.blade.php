@@ -56,10 +56,10 @@
                                 </li>
 
                                 
-                                <li class="menu-item">
+                               <!-- <li class="menu-item">
                                     <a class="menu-link" href="#contato"><div>BLOG</div></a>
                                    
-                                </li> 
+                                </li> -->
                              
                             </ul>
 

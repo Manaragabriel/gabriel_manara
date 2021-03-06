@@ -5,7 +5,9 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
+html{
+	scroll-behavior: smooth;
+}
 .bg-white{
 	background-color: #fff;
 }
@@ -16,4 +18,20 @@
 }
 .br-100{
 	border-radius: 100%;
+}
+.image-services{
+	height: 418px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.contact-data-title{
+	font-weight: 700;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-data-content{
+	color: initial;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
 }
