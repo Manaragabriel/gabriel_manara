@@ -17,7 +17,9 @@ class AuthController extends Controller
         try{
             $authData = $request->validated();
             $user = User::where('email', $authData['email'])->first();
+
             if(!empty($user)){
+                
                 if(Auth::attempt($authData)){
                     return redirect('admin/dashboard');
                 }

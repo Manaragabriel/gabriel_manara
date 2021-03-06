@@ -83,9 +83,6 @@
             </div><!-- /.bottom-footer -->
         </footer><!-- /.main-footer__three -->
 
-    </div>
+   
     <!--End pagewrapper-->
-
-<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
 
