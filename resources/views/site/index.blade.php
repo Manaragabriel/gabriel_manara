@@ -15,7 +15,7 @@
 			      <div class="row">
 
 					<div class="col-lg-6 d-flex justify-content-center">
-						<img src="{{asset('assets_site/images/eu.jpg')}}" class="top-photo br-100"/>
+						<img alt="Gabriel Manara" src="{{asset('assets_site/images/eu.jpg')}}" class="top-photo br-100"/>
 					</div>
 					
 					<div class="col-lg-6 d-flex align-items-center">
@@ -107,7 +107,7 @@
 				<h2 class="text-center">SERVIÇOS</h2>
 				<div class="row">
 					<div class="col-lg-6 px-3">
-						<img class="image-services" src="{{asset('assets_site/images/site.jpg')}}"/>
+						<img alt="Serviços de criação de sites e ecommerce" class="image-services" src="{{asset('assets_site/images/site.jpg')}}"/>
 						<h3 class="text-center">Sites e Ecommerce</h3>
 						<p class="text-center">
 							Posso atuar em projetos de Sites e Ecommerce<br>
@@ -119,7 +119,7 @@
 						</p>
 					</div>
 					<div class="col-lg-6 px-3">
-						<img class="image-services" src="{{asset('assets_site/images/sistema.jpg')}}"/>
+						<img alt="Serviços de criação de sistemas e api's" class="image-services" src="{{asset('assets_site/images/sistema.jpg')}}"/>
 						<h3 class="text-center">Sistemas e API's</h3>
 						<p class="text-center">
 							Possuo expêriencia com criação de Sistemas e API´s<br>
@@ -138,7 +138,7 @@
 				<h2 class="text-center">Meu Portfolio</h2>
 				<div class="row">
 					<div class="col-lg-6 px-3">
-						<img class="image-services" src="{{asset('assets_site/images/w2.jpg')}}"/>
+						<img  alt="Portifolio - 1" class="image-services" src="{{asset('assets_site/images/w2.jpg')}}"/>
 						<h3 class="text-center">W2GETHER DIGITAL MAKERS</h3>
 						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
 						<p class="text-center">
@@ -146,7 +146,7 @@
 						</p>
 					</div>
 					<div class="col-lg-6 px-3">
-						<img class="image-services" src="{{asset('assets_site/images/valore.png')}}"/>
+						<img alt="Portifolio" class="image-services" src="{{asset('assets_site/images/valore.png')}}"/>
 						<h3 class="text-center">VALORE MARKETING E TECNÓLOGIA</h3>
 						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
 						<p class="text-center">
@@ -188,18 +188,18 @@
 										<input type="text" class="form-control" id="name" placeholder="Digite seu nome*">
 									</div>
 									<div class="form-group">
-										<label for="name">Seu e-mail*</label>
+										<label for="email">Seu e-mail*</label>
 										<input type="email" class="form-control" id="email" placeholder="Digite seu email*">
 									</div>
 									<div class="form-group">
-										<label for="name">Seu telefone/celular*</label>
-										<input type="text" class="form-control" id="phone" placeholder="Digite seu telefone ou celular*">
+										<label for="phone">Seu telefone/celular*</label>
+										<input type="text" class="form-control phone" id="phone" placeholder="Digite seu telefone ou celular*">
 									</div>
 									<div class="form-group">
-										<label for="name">Sua mensagem*</label>
+										<label for="message">Sua mensagem*</label>
 										<textarea  class="form-control" id="message" placeholder="Deixe sua mensagem*"></textarea>
 									</div>
-									<a class="btn bg-dark text-white">Enviar</a>
+									<a href="#" class="btn bg-dark text-white">Enviar</a>
 								</form>
 								
 	
