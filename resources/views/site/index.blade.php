@@ -111,11 +111,11 @@
 						<h3 class="text-center">{{__('Sites e Ecommerce')}}</h3>
 						<p class="text-center">
 						{{__('Posso atuar em projetos de Sites e Ecommerce')}}<br>
-							{{__('Passei a maior parte da minha carreira ')}}
+							{{__('Passei a maior parte da minha carreira')}}
 								{{__('trabalhando com este tipo de projeto,')}}
 									{{__('gosto de aplicar sempre as melhores práticas,')}}
 										{{__('utilizando as melhores tecnólogias, se preocupando')}}
-											{{__('com a Responsividade e questões de SEO e otimização ')}}
+											{{__('com a Responsividade e questões de SEO e otimização')}}
 						</p>
 					</div>
 					<div class="col-lg-6 px-3">
