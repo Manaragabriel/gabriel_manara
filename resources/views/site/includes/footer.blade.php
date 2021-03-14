@@ -189,22 +189,22 @@
 
 					<div class="row col-mb-30">
 
-						<div class="col-md-6 text-center text-md-left">
-							Desenvolvido por Gabriel Manara <br>
+						<div class="col-md-6 text-center text-white  text-md-left">
+						{{__('Desenvolvido por Gabriel Manara')}} <br>
 						</div>
 
 						<div class="col-md-6 text-center text-md-right">
 							<div class="d-flex justify-content-center justify-content-md-end">
 								
 
-								<a href="https://github.com/Manaragabriel" class="social-icon si-small si-borderless si-github">
+								<a href="https://github.com/Manaragabriel" class="social-icon si-small text-white  si-borderless si-github">
 									<i class="icon-github"></i>
 									<i class="icon-github"></i>
 								</a>
 
 								
 
-								<a href="https://www.linkedin.com/in/gabriel-manara-a12b75142/" class="social-icon si-small si-borderless si-linkedin">
+								<a href="https://www.linkedin.com/in/gabriel-manara-a12b75142/" class="social-icon  text-white  si-small si-borderless si-linkedin">
 									<i class="icon-linkedin"></i>
 									<i class="icon-linkedin"></i>
 								</a>

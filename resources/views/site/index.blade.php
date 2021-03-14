@@ -21,7 +21,7 @@
 					<div class="col-lg-6 d-flex align-items-center">
 						<div >
 							<h1>GABRIEL MANARA</h1>
-							<span>Desenvolvedor WEB</span>
+							<span>{{__('Desenvolvedor WEB')}}</span>
 						</div>
 				  	</div>
 				  
@@ -38,12 +38,12 @@
 
 					<div class="row">
 						<div class="col-lg-12">
-							<h2 class="text-center">SOBRE MIM</h2>
+							<h2 class="text-center">{{__('SOBRE MIM')}}</h2>
 
-							<p class="text-center">Eu sou desenvolvedor WEB, gosto bastante de programação e estou sempre a procura de aprender coisas novas e enfrentar novos desafios<br>
-									Estou sempre atento ao mercado e as novas tecnológias, nos meus projetos gosto de aplicar as melhores práticas para garantir a melhor qualidade.
+							<p class="text-center">{{ __('Eu sou desenvolvedor WEB, gosto bastante de programação e estou sempre a procura de aprender coisas novas e enfrentar novos desafios')}}<br>
+									{{__('Estou sempre atento ao mercado e as novas tecnológias, nos meus projetos gosto de aplicar as melhores práticas para garantir a melhor qualidade.')}}
 							</p>
-							<p class="text-center font-weight-bold">Estou a disposição para conversarmos, e quem sabe, fechar um projeto :) </p>
+							<p class="text-center font-weight-bold">{{__('Estou a disposição para conversarmos, e quem sabe, fechar um projeto')}} :) </p>
 
 						</div>
 
@@ -55,7 +55,7 @@
 				<div class="section mb-0">
 					<div class="container">
 						<div class="heading-block center border-bottom-0 mb-0">
-							<h3>MINHAS SKILLS</h3>
+							<h3>{{__('MINHAS SKILLS')}}</h3>
 						</div>
 						<div>
 							
@@ -104,28 +104,28 @@
 
 		<section class="p-5" id="servicos">
 			<div class="container">
-				<h2 class="text-center">SERVIÇOS</h2>
+				<h2 class="text-center">{{__('SERVIÇOS')}}</h2>
 				<div class="row">
 					<div class="col-lg-6 px-3">
 						<img alt="Serviços de criação de sites e ecommerce" class="image-services" src="{{asset('assets_site/images/site.jpg')}}"/>
-						<h3 class="text-center">Sites e Ecommerce</h3>
+						<h3 class="text-center">{{__('Sites e Ecommerce')}}</h3>
 						<p class="text-center">
-							Posso atuar em projetos de Sites e Ecommerce<br>
-							Passei a maior parte da minha carreira 
-							trabalhando com este tipo de projeto,
-							gosto de aplicar sempre as melhores práticas,
-							utilizando as melhores tecnólogias, se preocupando
-							com a Responsividade e questões de SEO e otimização 
+						{{__('Posso atuar em projetos de Sites e Ecommerce')}}<br>
+							{{__('Passei a maior parte da minha carreira ')}}
+								{{__('trabalhando com este tipo de projeto,')}}
+									{{__('gosto de aplicar sempre as melhores práticas,')}}
+										{{__('utilizando as melhores tecnólogias, se preocupando')}}
+											{{__('com a Responsividade e questões de SEO e otimização ')}}
 						</p>
 					</div>
 					<div class="col-lg-6 px-3">
 						<img alt="Serviços de criação de sistemas e api's" class="image-services" src="{{asset('assets_site/images/sistema.jpg')}}"/>
-						<h3 class="text-center">Sistemas e API's</h3>
+						<h3 class="text-center">{{__("Sistemas e API's")}}</h3>
 						<p class="text-center">
-							Possuo expêriencia com criação de Sistemas e API´s<br>
-							Gosto bastante de resolver problemas e trazer soluções
-							para os problemas das pessoas. Sempre me esforço em criar a melhor
-							solução para automatizar processos e melhorar o trabalho das pessoas
+						{{__('Possuo expêriencia com criação de Sistemas e API´s')}}<br>
+							{{__('Gosto bastante de resolver problemas e trazer soluções')}}
+								{{__('para os problemas das pessoas. Sempre me esforço em criar a melhor')}}
+									{{__('solução para automatizar processos e melhorar o trabalho das pessoas')}}
 						</p>
 					</div>
 				</div>
@@ -135,20 +135,20 @@
 
 		<section class="" id="portfolio">
 			<div class="container">
-				<h2 class="text-center">Meu Portfolio</h2>
+				<h2 class="text-center">{{__('Meu Portfolio')}}</h2>
 				<div class="row">
 					<div class="col-lg-6 px-3">
 						<img  alt="Portifolio - 1" class="image-services" src="{{asset('assets_site/images/w2.jpg')}}"/>
 						<h3 class="text-center">W2GETHER DIGITAL MAKERS</h3>
-						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
+						<div class="font-weight-bold text-center">{{__('Desenvolvedor FullStack')}}</div>
 						<p class="text-center">
-							27/09/2020 - Atualmente
+							27/09/2020 - {{__('Atualmente')}}
 						</p>
 					</div>
 					<div class="col-lg-6 px-3">
 						<img alt="Portifolio" class="image-services" src="{{asset('assets_site/images/valore.png')}}"/>
 						<h3 class="text-center">VALORE MARKETING E TECNÓLOGIA</h3>
-						<div class="font-weight-bold text-center">Desenvolvedor FullStack</div>
+						<div class="font-weight-bold text-center">{{__('Desenvolvedor FullStack')}}</div>
 						<p class="text-center">
 							24/06/2019 - 24/09/2020
 						</p>
@@ -159,7 +159,7 @@
 		</section>
 
 		<section class="section m-0 clearfix" id="contato">
-					<h3 class="text-center">ENTRE EM CONTATO COMIGO!</h3>
+					<h3 class="text-center">{{__('ENTRE EM CONTATO COMIGO!')}}</h3>
 				    <div class="container">
 						<div class="row">
 						
@@ -170,7 +170,7 @@
 								<div class="d-flex pt-lg-5 justify-content-center">
 									<p>
 										<span class="contact-data-title">E-mail:</span> <a href="mailto:gabrielmanara2010@hotmail.com" class="contact-data-content">  gabrielmanara2010@hotmail.com</a><br>
-										<span class="contact-data-title">Whatsapp/Celular:</span> <a href="https://api.whatsapp.com/send?phone=5519983708165" class="contact-data-content">(19)98370-8165</a>
+										<span class="contact-data-title">{{__('Whatsapp/Celular:')}}</span> <a href="https://api.whatsapp.com/send?phone=5519983708165" class="contact-data-content">(19)98370-8165</a>
 
 									</p>
 								</div>
@@ -184,22 +184,22 @@
 	
 								<form>
 									<div class="form-group">
-										<label for="name">Seu nome*</label>
+										<label for="name">{{__('Seu nome*')}}</label>
 										<input type="text" class="form-control" id="name" placeholder="Digite seu nome*">
 									</div>
 									<div class="form-group">
-										<label for="email">Seu e-mail*</label>
+										<label for="email">{{__('Seu e-mail*')}}</label>
 										<input type="email" class="form-control" id="email" placeholder="Digite seu email*">
 									</div>
 									<div class="form-group">
-										<label for="phone">Seu telefone/celular*</label>
+										<label for="phone">{{__('Seu telefone/celular*')}}</label>
 										<input type="text" class="form-control phone" id="phone" placeholder="Digite seu telefone ou celular*">
 									</div>
 									<div class="form-group">
-										<label for="message">Sua mensagem*</label>
+										<label for="message">{{__('Sua mensagem*')}}</label>
 										<textarea  class="form-control" id="message" placeholder="Deixe sua mensagem*"></textarea>
 									</div>
-									<a href="#" class="btn bg-dark text-white">Enviar</a>
+									<a href="#" class="btn bg-dark text-white">{{__('Enviar')}}</a>
 								</form>
 								
 	

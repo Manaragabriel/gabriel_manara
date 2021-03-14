@@ -19,6 +19,7 @@ use App\Http\Controllers\Site\MainController;
 
 
 Route::get('/', [MainController::class, 'index']);
+Route::get('/{language}', [MainController::class, 'index']);
 
 
 
