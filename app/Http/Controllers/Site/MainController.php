@@ -12,8 +12,8 @@ class MainController extends Controller
     {
         $language === 'en' ? App::setLocale('en') : App::setLocale('pt');
 
-        $data['seo'] = $this->seo->generate_tags( "Gabriel Manara | Desenvolvedor Web",
-                                                    "Is a compact and easy-to-use tag creator to optimize your site",
+        $data['seo'] = $this->seo->generate_tags( __("Gabriel Manara | Desenvolvedor Web"),
+                                                    __("Desenvolvedor Web FullStack"),
                                                     url('/'),
                                                     url('/assets_site/images/eu.jpg')
                                                 );
