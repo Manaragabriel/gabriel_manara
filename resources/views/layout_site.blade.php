@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="{{asset('assets_site/css/magnific-popup.css')}}" type="text/css" />
 	<link rel="stylesheet" href="{{asset('assets_site/style.css')}}" type="text/css" />
 	<link rel="stylesheet" href="{{asset('assets_site/css/custom.css')}}" type="text/css" />
+	@livewireStyles
 	<link rel="shortcut icon" href="{{asset('assets_site/images/favicon.ico')}}" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 

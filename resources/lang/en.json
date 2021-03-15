@@ -32,5 +32,13 @@
     "PORTFOLIO":"PORTFOLIO",
     "CONTATO":"CONTACT",
     "Gabriel Manara | Desenvolvedor Web": "Gabriel Manara | Web Developer",
-    "Desenvolvedor Web FullStack": "Fullstack Developer"
+    "Desenvolvedor Web FullStack": "Fullstack Developer",
+    "Aguarde 2 horas para enviar o formulário de novo": "Wait 2 hours to send another contact",
+    "Nome é obrigatório" : "Name is required!",
+    "Email é obrigatório" : "Email is required!",
+    "É necessário digital um endereço de email válido" : "You email address is invalid!",
+    "Telefone é obrigatório": "Phone is required!", 
+    "Você deve deixar uma mensagem": "You should leave a message!",
+    "Mensagem deve contér no maximo 1000 caracteres" : "The message limit is 1000 characters!"
+
 }

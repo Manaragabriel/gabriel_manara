@@ -182,25 +182,7 @@
 	
 							<div class="col-lg-6 order-1  order-lg-2 bottommargin clearfix">
 	
-								<form>
-									<div class="form-group">
-										<label for="name">{{__('Seu nome*')}}</label>
-										<input type="text" class="form-control" id="name" placeholder="Digite seu nome*">
-									</div>
-									<div class="form-group">
-										<label for="email">{{__('Seu e-mail*')}}</label>
-										<input type="email" class="form-control" id="email" placeholder="Digite seu email*">
-									</div>
-									<div class="form-group">
-										<label for="phone">{{__('Seu telefone/celular*')}}</label>
-										<input type="text" class="form-control phone" id="phone" placeholder="Digite seu telefone ou celular*">
-									</div>
-									<div class="form-group">
-										<label for="message">{{__('Sua mensagem*')}}</label>
-										<textarea  class="form-control" id="message" placeholder="Deixe sua mensagem*"></textarea>
-									</div>
-									<a href="#" class="btn bg-dark text-white">{{__('Enviar')}}</a>
-								</form>
+							<livewire:contact-form/>
 								
 	
 							</div>
