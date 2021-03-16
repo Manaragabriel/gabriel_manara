@@ -44,6 +44,11 @@
     "Digite seu nome*":"Please provide your name*",
     "Digite seu email*":"Please provide your email*",
     "Digite seu telefone ou celular*":"Please provide your phone number*",
-    "Deixe sua mensagem*":"Please leave your message*"
+    "Deixe sua mensagem*":"Please leave your message*",
+    "(19)98370-8165":"+55 19 983708165 ",
+    "sobre-mim": "about-me",
+    "servicos": "services",
+    "portfolio": "portfolio",
+    "contato": "contact"
 
 }

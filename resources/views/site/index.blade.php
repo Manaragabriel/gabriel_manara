@@ -33,7 +33,7 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<div class="content-wrap pb-0" id="sobre-mim">
+			<div class="content-wrap pb-0" id="{{__('sobre-mim')}}">
 				<div class="container">
 
 					<div class="row">
@@ -102,7 +102,7 @@
 			</div>
 		</section><!-- #content end -->
 
-		<section class="p-5" id="servicos">
+		<section class="p-5" id="{{__('servicos')}}">
 			<div class="container">
 				<h2 class="text-center">{{__('SERVIÇOS')}}</h2>
 				<div class="row">
@@ -133,7 +133,7 @@
 		</section>
 
 
-		<section class="" id="portfolio">
+		<section class="" id="{{__('portfolio')}}">
 			<div class="container">
 				<h2 class="text-center">{{__('Meu Portfolio')}}</h2>
 				<div class="row">
@@ -158,7 +158,7 @@
 
 		</section>
 
-		<section class="section m-0 clearfix" id="contato">
+		<section class="section m-0 clearfix" id="{{__('contato')}}">
 					<h3 class="text-center">{{__('ENTRE EM CONTATO COMIGO!')}}</h3>
 				    <div class="container">
 						<div class="row">
@@ -170,7 +170,7 @@
 								<div class="d-flex pt-lg-5 justify-content-center">
 									<p>
 										<span class="contact-data-title">E-mail:</span> <a href="mailto:gabrielmanara2010@hotmail.com" class="contact-data-content">  gabrielmanara2010@hotmail.com</a><br>
-										<span class="contact-data-title">{{__('Whatsapp/Celular:')}}</span> <a href="https://api.whatsapp.com/send?phone=5519983708165" class="contact-data-content">(19)98370-8165</a>
+										<span class="contact-data-title">{{__('Whatsapp/Celular:')}}</span> <a href="https://api.whatsapp.com/send?phone=5519983708165" class="contact-data-content">{{__('(19)98370-8165')}}</a>
 
 									</p>
 								</div>

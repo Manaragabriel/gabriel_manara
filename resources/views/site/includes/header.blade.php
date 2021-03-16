@@ -25,23 +25,23 @@
 
                             <ul class="menu-container">
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#sobre-mim"><div>{{__('SOBRE MIM')}}</div></a>
+                                    <a class="menu-link" href="{{Request::url().'#'.__('sobre-mim')}}"><div>{{__('SOBRE MIM')}}</div></a>
                                    
                                 </li>
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#servicos"><div>{{__('SERVIÇOS')}}</div></a>
+                                    <a class="menu-link" href="{{Request::url().'#'.__('servicos')}}"><div>{{__('SERVIÇOS')}}</div></a>
                                    
                                 </li>
 
                                 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#portfolio"><div>{{__('PORTFOLIO')}}</div></a>
+                                    <a class="menu-link" href="{{Request::url().'#'.__('portfolio')}}"><div>{{__('PORTFOLIO')}}</div></a>
                                    
                                 </li>
 
                                 <li class="menu-item">
-                                    <a class="menu-link" href="#contato"><div>{{__('CONTATO')}}</div></a>
+                                    <a class="menu-link" href="{{Request::url().'#'.__('contato')}}"><div>{{__('CONTATO')}}</div></a>
                                    
                                 </li>
 
