@@ -39,6 +39,11 @@
     "É necessário digital um endereço de email válido" : "You email address is invalid!",
     "Telefone é obrigatório": "Phone is required!", 
     "Você deve deixar uma mensagem": "You should leave a message!",
-    "Mensagem deve contér no maximo 1000 caracteres" : "The message limit is 1000 characters!"
+    "Mensagem deve contér no maximo 1000 caracteres" : "The message limit is 1000 characters!",
+    "E-mail enviado com sucesso!": "Successful on send email!",
+    "Digite seu nome*":"Please provide your name*",
+    "Digite seu email*":"Please provide your email*",
+    "Digite seu telefone ou celular*":"Please provide your phone number*",
+    "Deixe sua mensagem*":"Please leave your message*"
 
 }

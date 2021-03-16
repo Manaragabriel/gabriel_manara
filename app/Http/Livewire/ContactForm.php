@@ -17,6 +17,7 @@ class ContactForm extends Component
     public $phone = '';
     public $message = '';
     public $error = '';
+    public $success = '';
 
 
     protected $rules = [
@@ -37,14 +38,17 @@ class ContactForm extends Component
     ];
 
     public function submit(){
-          try {
-           // $this->rateLimit(5,7200);
-            $contact = $this->validate();
+       
+        $contact = $this->validate();  
+        try {
+            
+            $this->rateLimit(5,7200);
             Mail::to(env('MAIL_TO_ADDRESS'))->send(new SendContactMail($contact));
+            $this->success = __('E-mail enviado com sucesso!');
+            $this->reset(['name','email','phone','message']);
 
         } catch (\Exception $exception) {
             $this->error =  __("Aguarde 2 horas para enviar o formulário de novo");
-            dd($exception);
             return;
         }
         
