@@ -31,6 +31,6 @@ class SendContactMail extends Mailable
     public function build()
     {
         
-        return $this->html($this->contact['message'])->subject('Contact from website');
+        return $this->html('Contact email:'.$this->contact['email'].'<br> Name:'.$this->contact['name'].'<br>Contact phone:'.$this->contact['phone'].'<br>'.$this->contact['message'])->subject('Contact from website');
     }
 }
