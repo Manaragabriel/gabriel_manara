@@ -19,7 +19,7 @@
 	@livewireStyles
 	<link rel="shortcut icon" href="{{asset('assets_site/images/favicon.ico')}}" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+	<meta name="google-site-verification" content="p0_hVxJlQU9daLxbyRYU9xXf_6pYgXRhp7qCQ3gsfbs" />
 	{!! $seo !!}
 
 
