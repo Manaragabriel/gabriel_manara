@@ -31,7 +31,7 @@
     "Enviar":"Send",
     "PORTFOLIO":"PORTFOLIO",
     "CONTATO":"CONTACT",
-    "Gabriel Manara | Desenvolvedor Web": "Gabriel Manara | Web Developer",
+    "Gabriel Manara | Desenvolvedor Web | Freelancer e Agência": "Gabriel Manara | Web Developer | Freelancer and Agency",
     "Desenvolvedor Web FullStack": "Fullstack Developer",
     "Aguarde 2 horas para enviar o formulário de novo": "Wait 2 hours to send another contact",
     "Nome é obrigatório" : "Name is required!",
@@ -49,6 +49,8 @@
     "sobre-mim": "about-me",
     "servicos": "services",
     "portfolio": "portfolio",
-    "contato": "contact"
+    "contato": "contact",
+    "Desenvolvedor Web FullStack, estou disponível para trabalhos freelancer e também tenho minha empresa, posso trabalhar com desenvolvimento de sites, ecommerce, sistemas e API's":"I am a Full Stack Developer, i am available for freelancer jobs and i have my agency too, i can work with websites development, ecommerce, websystem and API's ",
+    "desenvolvedor web, dev web, desenvolvedor full-stack,desenvolvedor back-end,desenvolvedor front-end, desenvolvedor php, programador, desenvolvedor javascript, desenvolvedor freelancer, freelancer, agencia":"web developer, full-stack developer, front-end developer, back-end developer, javascript developer, freelancer, freelancer developer, agency"
 
 }

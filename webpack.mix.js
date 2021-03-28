@@ -11,7 +11,29 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix.combine(
+        [
+            'public/assets_site/css/bootstrap.css',
+            'public/assets_site/css/style.css',
+            'public/assets_site/css/dark.css',
+            'public/assets_site/css/font-icons.css',
+            'public/assets_site/css/animate.css',
+            'public/assets_site/css/magnific-popup.css',
+            'public/assets_site/css/style2.css',
+            'public/assets_site/css/custom.css',
+        
+        ], 
+        'public/css/app.css'
+    );
+
+mix.combine(
+        [
+            'public/assets_site/js/jquery.js',
+            'public/assets_site/js/jquery.mask.min.js',
+            'public/assets_site/js/plugins.min.js',
+            'public/assets_site/js/functions.js',
+            'public/assets_site/js/scripts.js',
+        
+        ], 
+        'public/js/app.js'
+    );

@@ -3,24 +3,18 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
 	<base href="{{asset('')}}"/>
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/bootstrap.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/style.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/dark.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/font-icons.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/animate.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/magnific-popup.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/style.css')}}" type="text/css" />
-	<link rel="stylesheet" href="{{asset('assets_site/css/custom.css')}}" type="text/css" />
+	<link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css" />
 	@livewireStyles
 	<link rel="shortcut icon" href="{{asset('assets_site/images/favicon.ico')}}" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="google-site-verification" content="p0_hVxJlQU9daLxbyRYU9xXf_6pYgXRhp7qCQ3gsfbs" />
 	{!! $seo !!}
+	<meta name="keywords" content="{{__('desenvolvedor web, dev web, desenvolvedor full-stack,desenvolvedor back-end,desenvolvedor front-end, desenvolvedor php, programador, desenvolvedor javascript, desenvolvedor freelancer, freelancer, agencia')}}"/>
+	<meta name="author" content="Gabriel Manara"/>
 
 
 	<!-- Document Title
@@ -42,10 +36,7 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 	<div id="gotoTop" class="icon-angle-up"></div>
 	@livewireScripts
-	<script src="{{asset('assets_site/js/jquery.js')}}"></script>
-	<script src="{{asset('assets_site/js/jquery.mask.min.js')}}"></script>
-	<script src="{{asset('assets_site/js/plugins.min.js')}}"></script>
-	<script src="{{asset('assets_site/js/functions.js')}}"></script>
-	<script src="{{asset('assets_site/js/scripts.js')}}"></script>
+	<script src="{{asset('js/app.js')}}"></script>
+
 </body>
 </html>
