@@ -15,7 +15,7 @@
 	{!! $seo !!}
 	<meta name="keywords" content="{{__('desenvolvedor web, dev web, desenvolvedor full-stack,desenvolvedor back-end,desenvolvedor front-end, desenvolvedor php, programador, desenvolvedor javascript, desenvolvedor freelancer, freelancer, agencia')}}"/>
 	<meta name="author" content="Gabriel Manara"/>
-
+	<meta name="google-site-verification" content="p0_hVxJlQU9daLxbyRYU9xXf_6pYgXRhp7qCQ3gsfbs">
 
 	<!-- Document Title
 	============================================= -->
